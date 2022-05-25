@@ -1,0 +1,212 @@
+[
+    {
+        "precio": 2350,
+        "id": 1,
+        "title": "Harina Viada 0000 x25 Kg",
+        "img": "../assets/productos/Harina Viada 0000 x25Kg.png",
+        "categoria": "Harinas"
+    },
+    {
+        "precio": 5200,
+        "id": 2,
+        "title": "Harina Gastaldi Miga x50 Kg",
+        "img": "../assets/productos/Harina Gastaldi Pro Migas x50Kg.png",
+        "categoria": "Harinas"
+    },
+    {
+        "precio": 2700,
+        "id": 3,
+        "title": "Harina Gastaldi 0000 x25 Kg",
+        "img": "../assets/productos/Harina Gastaldi 0000 x25Kg.png",
+        "categoria": "Harinas"
+    },
+    {
+        "precio": 2050,
+        "id": 4,
+        "title": "Harina Viada 000 x25 Kg",
+        "img": "../assets/productos/Harina Viada 000 x25Kg.png",
+        "categoria": "Harinas"
+    },
+    {
+        "precio": 2050,
+        "id": 5,
+        "title": "Harina Cañuelas 000 x25 Kg",
+        "img": "../assets/productos/Harina Cañuelas 000 x25Kg.png",
+        "categoria": "Harinas"
+    },
+    {
+        "precio": 2300,
+        "id": 6,
+        "title": "Harina Gastaldi 000 x25 Kg",
+        "img": "../assets/productos/Harina Gastaldi 000 x25Kg.png",
+        "categoria": "Harinas"
+    },
+    {
+        "precio": 3600,
+        "id": 7,
+        "title": "Margarina Hojaldre Hurricane x10 Kg",
+        "img": "../assets/productos/Margarina Hojaldre Hurricane x10Kg.png",
+        "categoria": "Margarinas"
+    },
+    {
+        "precio": 3600,
+        "id": 8,
+        "title": "Margarina Masas y Batidos Hurricane x10 Kg",
+        "img": "../assets/productos/Margarina Hurricane Masas x10Kg.png",
+        "categoria": "Margarinas"
+    },
+    {
+        "precio": 4900,
+        "id": 9,
+        "title": "Margarina Masas y Batidos Cordobesa x10 Kg",
+        "img": "../assets/productos/Margarina Masa La Cordobesa x10kg.png",
+        "categoria": "Margarinas"
+    },
+    {
+        "precio": 2500,
+        "id": 10,
+        "title": "Margarina Hojaldre Cordobesa x5 Kg",
+        "img": "../assets/productos/Margarina Hojaldre La Cordobesa x5kg.png",
+        "categoria": "Margarinas"
+    },
+    {
+        "precio": 710,
+        "id": 11,
+        "title": "Chocolate Mapricuber con Leche x800 gr",
+        "img": "../assets/productos/Baño Mapricuber con Leche x800gr.png",
+        "categoria": "Chocolates"
+    },
+    {
+        "precio": 550,
+        "id": 12,
+        "title": "Chocolate Mapsa Semiamargo x500 gr",
+        "img": "../assets/productos/Baño Mapsacuber SemiAmargox500gr.png",
+        "categoria": "Chocolates"
+    },
+    {
+        "precio": 1250,
+        "id": 13,
+        "title": "Chocolate Mapricoa Semiamargo x2.5 Kg",
+        "img": "../assets/productos/Baño ET. Azul 2.5kg.png",
+        "categoria": "Chocolates"
+    },
+    {
+        "precio": 210,
+        "id": 14,
+        "title": "Chocolate Aguila Blanco x150 gr",
+        "img": "../assets/productos/Baño Aguila Blanco x150gr.png",
+        "categoria": "Chocolates"
+    },
+    {
+        "precio": 1650,
+        "id": 15,
+        "title": "Dulce de Leche Repostero Ledevit x5Kg",
+        "img": "../assets/productos/Dulce de Leche Repostero Ledevit x5kg.png",
+        "categoria": "Dulces"
+    },
+    {
+        "precio": 2150,
+        "id": 16,
+        "title": "Dulce de Leche Repostero Chakra x10Kg",
+        "img": "../assets/productos/Dulce de Leche Repostero La Chakra x10kg.png",
+        "categoria": "Dulces"
+    },
+    {
+        "precio": 2300,
+        "id": 17,
+        "title": "Dulce de Leche Repostero Josefina x10Kg",
+        "img": "../assets/productos/Dulce de Leche Repostero Josefina x10kg.png",
+        "categoria": "Dulces"
+    },
+    {
+        "precio": 930,
+        "id": 18,
+        "title": "Azucar Pedemonte Tipo A x10 Kg",
+        "img": "../assets/productos/AzucarPedemonte.png",
+        "categoria": "Azucar"
+    },
+    {
+        "precio": 940,
+        "id": 19,
+        "title": "Azucar Bella Vista Tipo A x10 Kg",
+        "img": "../assets/productos/AzucarBellaVista.png",
+        "categoria": "Azucar"
+    },
+    {
+        "precio": 1050,
+        "id": 20,
+        "title": "Azucar Fronterita Tipo A x10 Kg",
+        "img": "../assets/productos/AzucarFronterita.png",
+        "categoria": "Azucar"
+    },
+    {
+        "precio": 80,
+        "id": 21,
+        "title": "Choclo en granos x300 gr",
+        "img": "../assets/productos/Cholo en Granos x300gr.png",
+        "categoria": "Enlatados"
+    },
+    {
+        "precio": 390,
+        "id": 22,
+        "title": "Palmitos Trozados x810 gr",
+        "img": "../assets/productos/Palmitos en Trozos x810gr.png",
+        "categoria": "Enlatados"
+    },
+    {
+        "precio": 40,
+        "id": 23,
+        "title": "Arvejas x350 gr",
+        "img": "../assets/productos/Arvejasx350.png",
+        "categoria": "Enlatados"
+    },
+    {
+        "precio": 110,
+        "id": 24,
+        "title": "Atún desmenuzado al Aceite x170 gr",
+        "img": "../assets/productos/AtunAceite.png",
+        "categoria": "Enlatados"
+    },
+    {
+        "precio": 450,
+        "id": 25,
+        "title": "Pasta de Relleno Mapsa de Frutilla x450 gr",
+        "img": "../assets/productos/Pasta de Frutilla Mapsa x450gr.png",
+        "categoria": "Enlatados"
+    },
+    {
+        "precio": 420,
+        "id": 26,
+        "title": "Pasta de Relleno Mapsa de Chocolate x450 gr",
+        "img": "../assets/productos/Pasta de Chocolate Mapsa x450gr.png",
+        "categoria": "Enlatados"
+    },
+    {
+        "precio": 1000,
+        "id": 27,
+        "title": "Aceitunas Descarozadas Agge x2 Kg",
+        "img": "../assets/productos/AceitunasDescarozadasAgge.png",
+        "categoria": "Aceitunas"
+    },
+    {
+        "precio": 1800,
+        "id": 28,
+        "title": "Aceitunas Numero 3 x5 Kg",
+        "img": "../assets/productos/AceitunaIgrosN3x5.png",
+        "categoria": "Aceitunas"
+    },
+    {
+        "precio": 770,
+        "id": 29,
+        "title": "Dulce de Batata Serra x5 Kg",
+        "img": "../assets/productos/Dulce de Batata Serra x5Kg.png",
+        "categoria": "Dulces"
+    },
+    {
+        "precio": 920,
+        "id": 30,
+        "title": "Durazno en Mitades x3 Kg",
+        "img": "../assets/productos/Durazno en Mitades x3kg.png",
+        "categoria": "Enlatados"
+    }
+]
