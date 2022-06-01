@@ -172,14 +172,14 @@
         "id": 25,
         "title": "Pasta de Relleno Mapsa de Frutilla x450 gr",
         "img": "../assets/productos/Pasta de Frutilla Mapsa x450gr.png",
-        "categoria": "Enlatados"
+        "categoria": "Dulces"
     },
     {
         "precio": 420,
         "id": 26,
         "title": "Pasta de Relleno Mapsa de Chocolate x450 gr",
         "img": "../assets/productos/Pasta de Chocolate Mapsa x450gr.png",
-        "categoria": "Enlatados"
+        "categoria": "Dulces"
     },
     {
         "precio": 1000,

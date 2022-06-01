@@ -23,7 +23,6 @@ const fectchData = async () => {
         const data = await res.json();
         //console.log(data);
         generarCards(data);
-        
     } catch (err) {
         console.log(err);
     }
@@ -163,61 +162,24 @@ const imprimirNumeroCarrito = () => {
     const numCantidad = Object.values(carrito).reduce(( acc, {cantidad}) => acc + cantidad, 0);
     numeroCarrito.textContent = numCantidad;
 }
-
-//Filtrar productos
-const buttonActive = () => { 
-    addClass('button-active');
-}
-
-//BUSCADOR PRODUCTOS
-//Ejecutando funciones
-document.getElementById("icon-search").addEventListener("click", mostrar_buscador);
-document.getElementById("cover-ctn-search").addEventListener("click", ocultar_buscador);
-//Declarando variables
-const bars_search = document.getElementById("ctn-bars-search");
-const cover_ctn_search = document.getElementById("cover-ctn-search");
-const inputSearch = document.getElementById("inputSearch");
-//Funcion para mostrar el buscador
-function mostrar_buscador(){
-    bars_search.style.top = "10rem";
-    cover_ctn_search.style.display = "block";
-}
-//Funcion para ocultar el buscador
-function ocultar_buscador(){
-    bars_search.style.top = "-10rem";
-    cover_ctn_search.style.display = "none";
-    contenedorCarrito.style.marginLeft = "100%";
-}
 //desplazar carrito 
 const contenedorCarrito = document.querySelector('.container-carrito');
 function mostrarCarrito () {
     contenedorCarrito.style.marginLeft = "60%";
     cover_ctn_search.style.display = "block";
 };
-
-//FORMULARIOS
-//variables para darle estilos a los formularios
-const formulario_login = document.querySelector(".formulario__login");
-const formulario_register = document.querySelector(".formulario__register");
-const contenedor_login_register = document.querySelector(".contenedor__login-register");
-const caja_trasera_login = document.querySelector(".caja__trasera-login");
-const caja_trasera_register = document.querySelector(".caja__trasera-register");
-//eventos de nuestros formularios
-document.getElementById("btn__iniciar-sesion").addEventListener("click", iniciarSesion);
-document.getElementById("btn__registrarse").addEventListener("click", register);
-//funcion de boton iniciar sesion 
-function iniciarSesion(){
-    formulario_login.style.display = "block";
-    contenedor_login_register.style.left = "10px";
-    formulario_register.style.display = "none";
-    caja_trasera_register.style.opacity = "1";
-    caja_trasera_login.style.opacity = "0";
-};
-//funcion de boton register
-function register(){
-    formulario_register.style.display = "block";
-    contenedor_login_register.style.left = "410px";
-    formulario_login.style.display = "none";
-    caja_trasera_register.style.opacity = "0";
-    caja_trasera_login.style.opacity = "1";
+/*Filtrar contenido*/
+const d = document;
+function mostrarTodo(){
+    d.querySelectorAll('.card').forEach(e=>{
+        e.style.display = "block";
+    })
+}
+function filtrar (filtro){
+    d.querySelectorAll('.card').forEach(e => {
+        e.style.display = "block";
+        if(e.dataset.categoria != filtro){
+            e.style.display="none";
+        }
+    });
 };

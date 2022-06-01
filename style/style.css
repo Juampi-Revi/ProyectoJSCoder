@@ -87,6 +87,12 @@
   color: white;
   outline: none;
 }
+.contenedor__todo .contenedor__login-register form p {
+  text-align: center;
+  margin: auto;
+  color: red;
+  padding-top: 2rem;
+}
 .contenedor__todo .contenedor__login-register .formulario__login {
   opacity: 1;
   display: block;
@@ -308,6 +314,7 @@ main .nuestros-productos .productos-cards .card {
   margin: 4rem;
   border: none;
   width: 30rem;
+  transition: all 0.3s ease-out;
 }
 main .nuestros-productos .productos-cards .card img {
   width: 30rem;
@@ -338,6 +345,9 @@ main .nuestros-productos .productos-cards .card button:hover {
   background: #d30808;
   color: #fff;
 }
+main .nuestros-productos .productos-cards .card .filter {
+  display: none;
+}
 main .nuestros-productos .productos-cards .card:hover {
   border-bottom: 2px solid #d30808;
 }
@@ -351,7 +361,7 @@ main .nuestros-productos .main-productos aside {
   flex-direction: column;
   align-items: left;
   height: 80vh;
-  margin-top: 10rem;
+  margin-top: 1rem;
 }
 main .nuestros-productos .main-productos aside h3 {
   font-size: 2rem;
@@ -392,6 +402,16 @@ main .nuestros-productos .main-productos aside button:hover {
 }
 main .nuestros-productos .main-productos aside:hover {
   border-right: 0.1rem solid grey;
+}
+
+footer div .contenedor-iconos a {
+  width: 5rem;
+  height: 5rem;
+  border-radius: 5rem;
+  padding: 0.5rem;
+}
+footer div .contenedor-iconos a i {
+  font-size: 2.5rem;
 }
 
 /*# sourceMappingURL=style.css.map */
